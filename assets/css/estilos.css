@@ -64,6 +64,12 @@ section + section {
   margin-top: 3rem;
 }
 /* 3. Estructura */
+.pie-sitio{
+  padding: 1rem max(1rem, calc((100% - var(--ancho-contenido)) / 2));
+  text-align: center;
+  color: #ffffff;
+  background: var(--color-primario-oscuro);
+}
 /* 4. Navegación */
 .cabecera-sitio {
   padding: 1rem max(1rem, calc((100% - var(--ancho-contenido)) / 2));
